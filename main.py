@@ -7,10 +7,10 @@ import csv
 def database_connection():
     try:
         connection = mysql.connector.connect(
-        host = 'localhost',
-        user = 'supplyUser',
-        password = 'supply',
-        database='supplyData'
+        host = 'xxxxxxx',
+        user = 'xxxxxxx',
+        password = 'xxxxxxx',
+        database='xxxxxxx'
     )
     except mysql.connector.Error as err:
         if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
